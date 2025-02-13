@@ -158,10 +158,9 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Finance</label>
     <nameField>
-        <displayFormat>FN-{0000}</displayFormat>
-        <label>Finance Number</label>
+        <label>Finance Name</label>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Finance</pluralLabel>
     <searchLayouts></searchLayouts>

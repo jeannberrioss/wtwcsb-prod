@@ -60,11 +60,19 @@
     <tabs>standard-File</tabs>
     <tabs>Grant__c</tabs>
     <tabs>Finance__c</tabs>
+    <tabs>Funding_Allocation__c</tabs>
+    <tabs>Funding_Type__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
             <tab>Finance__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Funding_Allocation__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Funding_Type__c</tab>
         </mappings>
         <mappings>
             <tab>Grant__c</tab>

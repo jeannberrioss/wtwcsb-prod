@@ -67,6 +67,8 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-report</tabs>
+    <tabs>Funding_Allocation__c</tabs>
+    <tabs>Funding_Type__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>

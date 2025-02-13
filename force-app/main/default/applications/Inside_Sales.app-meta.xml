@@ -21,6 +21,8 @@
     <tabs>standard-Campaign</tabs>
     <tabs>Grant__c</tabs>
     <tabs>Finance__c</tabs>
+    <tabs>Funding_Allocation__c</tabs>
+    <tabs>Funding_Type__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Lead_Generation_UtilityBar</utilityBar>
 </CustomApplication>

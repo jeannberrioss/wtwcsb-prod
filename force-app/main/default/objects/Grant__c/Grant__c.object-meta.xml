@@ -158,10 +158,9 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <label>Grant</label>
     <nameField>
-        <displayFormat>GR-{0000}</displayFormat>
-        <label>Contract Number</label>
+        <label>Grant Name</label>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Grants</pluralLabel>
     <searchLayouts></searchLayouts>

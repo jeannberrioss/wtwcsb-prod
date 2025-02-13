@@ -24,6 +24,8 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>Grant__c</tabs>
     <tabs>Finance__c</tabs>
+    <tabs>Funding_Allocation__c</tabs>
+    <tabs>Funding_Type__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Sales_Leadership_UtilityBar</utilityBar>
 </CustomApplication>
