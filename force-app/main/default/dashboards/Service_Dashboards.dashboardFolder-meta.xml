@@ -5,5 +5,10 @@
         <sharedTo>AllInternalUsers</sharedTo>
         <sharedToType>Organization</sharedToType>
     </folderShares>
+    <folderShares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>salesforcesupport@ciberspring.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
     <name>Service Dashboards</name>
 </DashboardFolder>
