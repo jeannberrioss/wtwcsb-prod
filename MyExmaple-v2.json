@@ -1,0 +1,27 @@
+{
+  "MyTable-v1": [
+    "salesforce.salesforcedx-vscode",
+    "redhat.vscode-xml",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "financialforce.lana"
+  ]
+  ,
+    "MyTable-v2": [
+    "salesforce.salesforcedx-vscode",
+    "redhat.vscode-xml",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "financialforce.lana"
+  ]
+,
+    "MyTable-v3": [
+    "salesforce.salesforcedx-vscode",
+    "redhat.vscode-xml",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "financialforce.lana"
+  ]
+
+
+}
