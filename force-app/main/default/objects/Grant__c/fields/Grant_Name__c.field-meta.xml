@@ -3,7 +3,7 @@
     <fullName>Grant_Name__c</fullName>
     <externalId>false</externalId>
     <label>Grant Name</label>
-    <length>120</length>
+    <length>125</length>
     <required>true</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

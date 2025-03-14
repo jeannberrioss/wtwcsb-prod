@@ -206,11 +206,6 @@
             <field>BuyerAttributes</field>
             <table>Contact</table>
         </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Grant__c</field>
-            <table>Contact</table>
-        </columns>
         <masterLabel>Contacts</masterLabel>
     </sections>
 </ReportType>

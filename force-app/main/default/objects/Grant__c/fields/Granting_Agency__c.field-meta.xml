@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Granting_Agency__c</fullName>
+    <label>Granting Agency</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DBHDS</fullName>
+                <default>false</default>
+                <label>DBHDS</label>
+            </value>
+            <value>
+                <fullName>Obici-Other</fullName>
+                <default>false</default>
+                <label>Obici-Other</label>
+            </value>
+            <value>
+                <fullName>DCJS</fullName>
+                <default>false</default>
+                <label>DCJS</label>
+            </value>
+            <value>
+                <fullName>SGG Fox Org (Federal) - Other</fullName>
+                <default>false</default>
+                <label>SGG Fox Org (Federal) - Other</label>
+            </value>
+            <value>
+                <fullName>Department of Veteran Services - Other</fullName>
+                <default>false</default>
+                <label>Department of Veteran Services - Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

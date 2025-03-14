@@ -14,4 +14,8 @@
         <masterLabel>Program Grant</masterLabel>
         <translation><!-- Program Grant --></translation>
     </picklistValues>
+    <picklistValues>
+        <masterLabel>Reoccuring Funding Grant</masterLabel>
+        <translation><!-- Reoccuring Funding Grant --></translation>
+    </picklistValues>
 </CustomFieldTranslation>

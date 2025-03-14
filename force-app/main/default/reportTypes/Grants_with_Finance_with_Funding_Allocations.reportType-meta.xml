@@ -94,6 +94,61 @@
             <field>Grant_Contract_Number__c</field>
             <table>Grant__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>WebGrants__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Granting_Agency__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Budget_Code__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Notes_Comments__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Grant_Number__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Grant_Name__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>X1st_Warning__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>X2nd_Warning__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Due_to_BD__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Due_for_Submission__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Submitted__c</field>
+            <table>Grant__c</table>
+        </columns>
         <masterLabel>Grants</masterLabel>
     </sections>
     <sections>

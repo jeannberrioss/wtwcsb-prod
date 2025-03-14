@@ -513,11 +513,6 @@
             <field>GenderIdentity</field>
             <table>Account.Contacts</table>
         </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Grant__c</field>
-            <table>Account.Contacts</table>
-        </columns>
         <masterLabel>Contacts</masterLabel>
     </sections>
     <sections>

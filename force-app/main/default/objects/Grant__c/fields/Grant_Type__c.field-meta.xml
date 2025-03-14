@@ -25,6 +25,11 @@
                 <default>false</default>
                 <label>Program Grant</label>
             </value>
+            <value>
+                <fullName>Reoccuring Funding Grant</fullName>
+                <default>false</default>
+                <label>Reoccuring Funding Grant</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

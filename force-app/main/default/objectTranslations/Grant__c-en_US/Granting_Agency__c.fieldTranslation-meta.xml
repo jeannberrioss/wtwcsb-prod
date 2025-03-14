@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Granting Agency --></label>
+    <name>Granting_Agency__c</name>
+    <picklistValues>
+        <masterLabel>DBHDS</masterLabel>
+        <translation><!-- DBHDS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DCJS</masterLabel>
+        <translation><!-- DCJS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Department of Veteran Services - Other</masterLabel>
+        <translation><!-- Department of Veteran Services - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Obici-Other</masterLabel>
+        <translation><!-- Obici-Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SGG Fox Org (Federal) - Other</masterLabel>
+        <translation><!-- SGG Fox Org (Federal) - Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
