@@ -35,6 +35,16 @@
                 <identifier>RecordTotal_Funding__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Grant_Name__c</fieldItem>
+                <identifier>RecordGrant_Name_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-9204d784-0289-48d3-a441-8573800e730a</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -99,8 +109,12 @@
     <flexiPageRegions>
         <itemInstances>
             <fieldInstance>
-                <fieldItem>Record.Grant__r.Name</fieldItem>
-                <identifier>RecordGrant_rNameField2</identifier>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Grant_Name__c</fieldItem>
+                <identifier>RecordGrant_Name__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
