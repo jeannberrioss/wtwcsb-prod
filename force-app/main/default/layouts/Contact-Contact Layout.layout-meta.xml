@@ -274,7 +274,7 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>Grant__c.Grant_Name__c</fields>
+        <fields>Grant__c.Grant_Reference_Number__c</fields>
         <relatedList>Grant_Contact__c.Contact__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>

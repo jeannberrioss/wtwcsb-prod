@@ -7,7 +7,7 @@
         <chartSummaries>
             <aggregate>Sum</aggregate>
             <axisBinding>y</axisBinding>
-            <column>Grant__c.Grant_Amount__c</column>
+            <column>Grant__c.Award_Amount__c</column>
         </chartSummaries>
         <chartType>HorizontalBar</chartType>
         <enableHoverLabels>false</enableHoverLabels>
@@ -27,7 +27,7 @@
     </chart>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
-        <field>Grant__c.Grant_Amount__c</field>
+        <field>Grant__c.Award_Amount__c</field>
     </columns>
     <columns>
         <field>Grant__c.Grant_Type__c</field>

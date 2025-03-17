@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Budget_Code__c</fullName>
+    <description>Field that will be retrieved from Finance department.</description>
     <externalId>false</externalId>
     <label>Budget Code</label>
-    <precision>18</precision>
+    <length>55</length>
     <required>false</required>
-    <scale>0</scale>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Number</type>
+    <type>Text</type>
     <unique>false</unique>
 </CustomField>

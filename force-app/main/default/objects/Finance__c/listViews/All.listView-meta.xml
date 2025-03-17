@@ -3,7 +3,7 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>Grant__c</columns>
-    <columns>Total_Funding__c</columns>
+    <columns>Award_Amount__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

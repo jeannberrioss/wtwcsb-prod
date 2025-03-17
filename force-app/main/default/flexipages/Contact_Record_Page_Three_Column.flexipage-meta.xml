@@ -678,10 +678,10 @@
                             <value>Grant__c.NAME</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>Grant__c.Grant_Number__c</value>
+                            <value>Grant__c.Real_Grant_Number__c</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>Grant__c.Grant_Name__c</value>
+                            <value>Grant__c.Grant_Reference_Number__c</value>
                         </valueListItems>
                     </valueList>
                 </componentInstanceProperties>

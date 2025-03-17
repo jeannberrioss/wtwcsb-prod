@@ -158,15 +158,14 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <label>Grant</label>
     <nameField>
-        <displayFormat>GR-{0000}</displayFormat>
-        <label>Grant Reference Number</label>
+        <label>Grant Name</label>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Grants</pluralLabel>
     <searchLayouts>
-        <searchResultsAdditionalFields>Grant_Name__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Grant_Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Grant_Reference_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Award_Amount__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Grant_Status__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Grant_Start_Date__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Grant_End_Date__c</searchResultsAdditionalFields>

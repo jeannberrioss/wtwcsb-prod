@@ -10,11 +10,15 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Grant_Name__c</field>
+                <field>Name</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Grant_Reference_Number__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Grant_Number__c</field>
+                <field>Real_Grant_Number__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -22,11 +26,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Grant_Amount__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Budget_Code__c</field>
+                <field>Award_Amount__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -34,7 +34,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Grant_Contract_Number__c</field>
+                <field>Grant_Number__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -59,6 +59,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Submitted__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Reporting_On__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -122,6 +126,9 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>Name</fields>
+    </miniLayout>
     <relatedLists>
         <relatedList>RelatedFileList</relatedList>
     </relatedLists>
