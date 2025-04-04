@@ -20,4 +20,5 @@
     <tabs>Finance__c</tabs>
     <tabs>Funding_Allocation__c</tabs>
     <tabs>Funding_Type__c</tabs>
+    <tabs>standard-WaveHome</tabs>
 </CustomApplication>

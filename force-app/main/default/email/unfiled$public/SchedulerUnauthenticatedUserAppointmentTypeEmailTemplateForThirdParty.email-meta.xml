@@ -5,7 +5,7 @@
     <encodingKey>UTF-8</encodingKey>
     <name>Appointment for Unauthenticated User using Appointment Types - For third party.</name>
     <style>none</style>
-    <subject>{!Organization.Name}:Appointment Confirmation.</subject>
+    <subject>Reporting Reminder for {!Grant__c.Name}</subject>
     <type>custom</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

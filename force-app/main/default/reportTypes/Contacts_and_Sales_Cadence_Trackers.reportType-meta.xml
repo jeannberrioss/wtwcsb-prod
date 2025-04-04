@@ -38,16 +38,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>MiddleName</field>
-            <table>Contact</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Suffix</field>
-            <table>Contact</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>OtherAddress</field>
             <table>Contact</table>
         </columns>
@@ -289,6 +279,16 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>GenderIdentity</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Grant_Name__c</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>FullName_Concat__c</field>
             <table>Contact</table>
         </columns>
         <masterLabel>Contacts</masterLabel>

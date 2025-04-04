@@ -1,8 +1,22 @@
-Hi {{{Recipient.FirstName}}},
-            <br><br>
-            Just confirming our meeting on [INSERT MEETING DATE AND TIME]. Please reach out if you have any questions beforehand. I look forward to speaking with you!
-            <br><br>
-            [INSERT OPTIONAL AGENDA]
-            <br><br>
-            Best, <br>
-            {{{Sender.Signature}}}
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Good Morning/Good Afternoon&nbsp;{{{Recipient.FirstName}}},
+<p>I hope this message finds you well. I am writing to inform you about an approaching reporting deadline due to Business Development for&nbsp;REPORT NAME, please see below for more details</p>
+
+<p><strong>Key Details:</strong></p>
+
+<ul>
+	<li>Description:&nbsp;{{{Grant__c.Grant_Description__c}}}</li>
+	<li>Assigned to:&nbsp;{{{Recipient.Contact_Name__c}}}</li>
+	<li>Due Date: {{{Grant__c.Due_for_Submission__c}}}</li>
+</ul>
+
+<p>Please send to&nbsp;<strong><a href="mailto:mpucillo@wtcsb.org">mpucillo@wtcsb.org</a></strong>&nbsp;and CC&nbsp;<strong><a href="mailto:ntague@wtcsb.org">ntague@wtcsb.org</a></strong>&nbsp;by&nbsp;{{{Grant__c.Due_for_Submission__c}}}</p>
+
+<p>If you require assistance and/or additional resources to complete the tasking, please let us know.&nbsp;&nbsp;</p>
+
+<p>Many Thanks,</p>
+{{{Sender.Name}}}</body>
+</html>

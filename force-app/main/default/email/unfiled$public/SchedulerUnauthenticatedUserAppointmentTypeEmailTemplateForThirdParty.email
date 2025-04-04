@@ -3,11 +3,15 @@
             <p>Hello {!Lead.Name},<br>
             Your appointment is scheduled.</p>
             </div>
-            <div style="background-color: #ECF0F1;padding-left:2rem;padding-top:1rem;padding-bottom:1rem">
-            <b>Appointment Details</b>
-            <p >Scheduled On<br><b ><img class="icon" src="https://test.salesforce.com/img/icon/t4v35/utility/event_120.png"></span>{!DATETIMEVALUE(ServiceAppointment.SchedStartTime)} - {!DATETIMEVALUE(ServiceAppointment.SchedEndTime)}{!User.TimeZoneSidKey} </b ><br><br>
-            Appointment Topic<br ><b >{!ServiceAppointment.WorkType}</b ><br><br>
-            With<br ><b >{!ServiceAppointment.Comments}</b ><br><br>
-            Type<br ><b >{!ServiceAppointment.AppointmentType}</b ><br><br></p>
+            <div style="background-color: #ECF0F1;padding-left:2rem;padding-Subject: Reporting Reminder for REPORT NAME
+Good Morning/Good Afternoon,
+I hope this message finds you well. I am writing to inform you about an approaching reporting deadline due to Business Development for REPORT NAME, please see below for more details
+**Key Details:**
+• Description:
+• Assigned to:
+• Due Date:
+Please send to mpucillo@wtcsb.org and cc ntague@wtcsb.org by XX/XX/XX.
+If you require assistance and/or additional resources to complete the tasking, please let us know. 
+Many Thanks,
             </div >
          <div style="margin-top: 1rem;text-align: center"><a style="color:white;" class="button" href="{!ServiceAppointment.ApptBookingInfoUrl}">Join Video Call </a> </div ></body></html>

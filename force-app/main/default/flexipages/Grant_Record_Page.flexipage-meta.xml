@@ -41,6 +41,16 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Grant_End_Date__c</fieldItem>
+                <identifier>RecordGrant_End_Date_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Grant_Status__c</fieldItem>
                 <identifier>RecordGrant_Status_cField2</identifier>
             </fieldInstance>
@@ -158,10 +168,40 @@
                 <identifier>RecordWebGrants__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Grant_Start_Date__c</fieldItem>
+                <identifier>RecordGrant_Start_Date_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Grant_End_Date__c</fieldItem>
+                <identifier>RecordGrant_End_Date_cField2</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-c91d5f6c-6069-45ec-8488-e1273abc6692</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Award_Amount__c</fieldItem>
+                <identifier>RecordAward_Amount_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
@@ -200,6 +240,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Notes_Comments__c</fieldItem>
                 <identifier>RecordNotes_Comments__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Reporting_On__c</fieldItem>
+                <identifier>RecordReporting_On__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-e363adff-1560-4746-be4c-74db7ac9061e</name>
@@ -284,16 +334,6 @@
                 <identifier>RecordSubmitted__cField</identifier>
             </fieldInstance>
         </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Reporting_On__c</fieldItem>
-                <identifier>RecordReporting_On__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
         <name>Facet-40b65ef1-2277-41a7-a468-5ed853326cbd</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -354,6 +394,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.LastModifiedById</fieldItem>
                 <identifier>RecordLastModifiedByIdField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Contact_List_Display__c</fieldItem>
+                <identifier>RecordContact_List_Display_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-098f0be4-7830-4b02-b3d1-e886db231c35</name>
@@ -623,6 +673,16 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>showLegacyActivityComposer</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentName>runtime_sales_activities:activityPanel</componentName>
+                <identifier>runtime_sales_activities_activityPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
@@ -680,12 +740,12 @@
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
-                            <value>MassChangeOwner</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>New</value>
                         </valueListItems>
                     </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>adminFilters</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>maxRecordsToDisplay</name>
@@ -707,16 +767,13 @@
                     <name>relatedListFieldAliases</name>
                     <valueList>
                         <valueListItems>
-                            <value>NAME</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>Contact.Contact_Name__c</value>
                         </valueListItems>
                     </valueList>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>relatedListLabel</name>
-                    <value>Grant Contacts</value>
+                    <value>Contacts</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>showActionBar</name>

@@ -149,6 +149,16 @@
             <field>Reporting_On__c</field>
             <table>Grant__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Contact_List_Display__c</field>
+            <table>Grant__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Contact_Email_List__c</field>
+            <table>Grant__c</table>
+        </columns>
         <masterLabel>Grants</masterLabel>
     </sections>
     <sections>
@@ -230,6 +240,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Award_Amount__c</field>
+            <table>Grant__c.Finance__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Grant_Name__c</field>
             <table>Grant__c.Finance__r</table>
         </columns>
         <masterLabel>Finance</masterLabel>

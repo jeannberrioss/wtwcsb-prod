@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <assignments>
+        <description>Add Coma</description>
+        <name>Add_Coma</name>
+        <label>Add Coma</label>
+        <locationX>528</locationX>
+        <locationY>647</locationY>
+        <assignmentItems>
+            <assignToReference>randomvariable</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>, </stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_Next_Values</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Add Next Values</description>
+        <name>Add_Next_Values</name>
+        <label>Add Next Values</label>
+        <locationX>528</locationX>
+        <locationY>755</locationY>
+        <assignmentItems>
+            <assignToReference>randomvariable</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Loop_on_Related_Grant_Contacts.Contact__r.FullName_Concat__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_on_Related_Grant_Contacts</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Contact Record</description>
+        <name>Assign_Contact</name>
+        <label>Assign Contact</label>
+        <locationX>264</locationX>
+        <locationY>647</locationY>
+        <assignmentItems>
+            <assignToReference>randomvariable</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Loop_on_Related_Grant_Contacts.Contact__r.FullName_Concat__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_on_Related_Grant_Contacts</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <description>Check if Variable Is Blank</description>
+        <name>Check_if_Variable_Is_Blank</name>
+        <label>Check if Variable Is Blank</label>
+        <locationX>396</locationX>
+        <locationY>539</locationY>
+        <defaultConnector>
+            <targetReference>Add_Coma</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Not Blank</defaultConnectorLabel>
+        <rules>
+            <name>Blank</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>randomvariable</leftValueReference>
+                <operator>EqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Contact</targetReference>
+            </connector>
+            <label>Blank</label>
+        </rules>
+    </decisions>
+    <description>Update Grant Contact</description>
+    <environments>Default</environments>
+    <interviewLabel>Update Grant Contact Lists {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Grant Contacts</label>
+    <loops>
+        <name>Loop_on_Related_Grant_Contacts</name>
+        <label>Loop on Related Grant Contacts</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <collectionReference>Get_The_Contact_Record_Fields</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Check_if_Variable_Is_Blank</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Records</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Get The Contact Record Fields</description>
+        <name>Get_The_Contact_Record_Fields</name>
+        <label>Get Related Grant Contacts</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_on_Related_Grant_Contacts</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Grant__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Grant_Contact__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Records</name>
+        <label>Update Records</label>
+        <locationX>176</locationX>
+        <locationY>1031</locationY>
+        <inputAssignments>
+            <field>Contact_List_Display__c</field>
+            <value>
+                <elementReference>randomvariable</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_The_Contact_Record_Fields</targetReference>
+        </connector>
+        <object>Grant__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>FullNameConversion</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <description>randomvariable</description>
+        <name>randomvariable</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>varContactEmailList</description>
+        <name>varContactEmailList</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>varContactListDisplay</description>
+        <name>varContactListDisplay</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

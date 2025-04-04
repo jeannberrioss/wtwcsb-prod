@@ -11,7 +11,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Contact_Record_Page_Three_Column</content>
+        <content>Contact_Record_Page_Two_Column</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -54,19 +54,19 @@
         <pageOrSobjectType>Account</pageOrSobjectType>
     </actionOverrides>
     <brand>
-        <headerColor>#0070D2</headerColor>
-        <logo>Sales</logo>
+        <headerColor>#7344A4</headerColor>
+        <logo>wedgewoodlogo</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
-    <description>Sell smarter and faster with the world&apos;s #1 CRM solution.</description>
+    <description>Western Tidewater CRM</description>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
-    <label>Sales</label>
+    <label>Western Tidewater CRM</label>
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>Tab</actionName>
@@ -233,10 +233,13 @@
     <tabs>Grant__c</tabs>
     <tabs>Finance__c</tabs>
     <tabs>standard-Contact</tabs>
+    <tabs>standard-File</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-report</tabs>
+    <tabs>standard-WaveHomeLightningEacFree</tabs>
     <tabs>Funding_Allocation__c</tabs>
     <tabs>Funding_Type__c</tabs>
+    <tabs>standard-WaveHomeLightning</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>
